@@ -18,6 +18,7 @@ function myfunction(){
     li.style.color="red"
     li.style.fontSize='22px'
     li.setAttribute('id', "zoro")
+    myfunction5();
     
     
 }
@@ -36,7 +37,8 @@ function myfunction2(){
     li.style.color="green"
     li.style.fontSize='22px'
     li.style.marginLeft="20px"
-    li.setAttribute('id', "zoro")
+    li.setAttribute('id', "zoro");
+    myfunction6();
     
 }
 
@@ -59,4 +61,9 @@ function myfunction3(){
    
     zoro.remove(); 
 }
-
+function myfunction5(){
+    document.getElementById('input1').value = '';
+}
+function myfunction6(){
+    document.getElementById('input2').value = '';
+}

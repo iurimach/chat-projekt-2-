@@ -13,7 +13,7 @@
 .tomas{
     margin-right: 40px;
     font-size: 30px;
-    background-color: rgb(228, 67, 18);
+    background-color: rgb(28, 228, 21);
 }
 .muler{
     font-size: 30px;
@@ -27,6 +27,7 @@
     justify-content: space-around;
     align-items: center;
     
+    
 }
 .hiddensms{
     width: 100%;
@@ -34,26 +35,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 
 }
 
 
 .wraper{
     width: 100%;
-    height: 800px;
+    height: 260px;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
+    margin-top: 40px;
+    
 }
 .divul{
     width: 400px;
-    min-height: 600px;
-    height: auto;
+    min-height: 250px;
+    overflow: auto;
+    margin-top: 40px;
     border: 4px solid black;
     display: flex;
     justify-content: flex-start;
-    margin-top: -70px;
-    position: relative;
 
 }
 @media (max-width:500px){
@@ -64,10 +67,7 @@
     
     }
 }
-ul{
-    
-   
-}
+
 
 #input1{
     font-size: 25px;
