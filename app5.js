@@ -12,13 +12,15 @@ var li=document.createElement('li');
 
 
 function myfunction(){
+
+    if (input.value> '') {
     var li=document.createElement('li');
     ul.appendChild(li);
     li.textContent=  "from -tomas: "+ input.value ;
     li.style.color="red"
     li.style.fontSize='22px'
     li.setAttribute('id', "zoro")
-    myfunction5();
+    myfunction5();}
     
     
 }
@@ -31,6 +33,7 @@ var input2=document.querySelector('input[name="username2"]');
 
 
 function myfunction2(){
+     if (input2.value>'' ){
     var li=document.createElement('li');
     ul.appendChild(li);
     li.textContent=  "from -Muler :"+ input2.value  ;
@@ -38,7 +41,7 @@ function myfunction2(){
     li.style.fontSize='22px'
     li.style.marginLeft="20px"
     li.setAttribute('id', "zoro");
-    myfunction6();
+    myfunction6();}
     
 }
 
